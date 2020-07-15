@@ -90,3 +90,21 @@
 .bgcolor_beige{
   background-color: #CCB2A3;
 }
+/* /main-top */
+
+/* main-central */
+.container_short{
+  max-width: 1000px;
+  margin: auto;
+}
+
+.main_central{
+  background-color: #1ABC9C;
+  text-align: center;
+  color: #ffffff;
+}
+/* /main-central */
+
+/* main-bottom */
+
+/* /main-bottom */
