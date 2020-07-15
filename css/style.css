@@ -1,12 +1,12 @@
 /* HEADER */
 /* header-top */
-.container-fluid{
+.header-top{
+  color: #ffffff;
   background-color: #2C3E50;
   line-height: 120px;
 }
 
-.header-top h1{
-  color: #ffffff;
+.header-top h2{
   font-size: 30px;
   font-weight: 700;
   margin: 0;
@@ -15,7 +15,6 @@
 
 .header-top .list-inline{
   text-align: right;
-  color: #ffffff;
   font-size: 18px;
   margin: 0;
 }
@@ -23,6 +22,47 @@
 .header-top .list-inline li{
   padding-left: 20px;
 }
+
+.fa-bars{
+  font-size: 20px;
+  float: right;
+  border-radius: 3px;
+  border: 1px solid #ffffff;
+  padding: 8px;
+}
+
+/* @media (max-width: @screen-xs-max){
+  .header-top h2{
+    font-size: 10px;
+    font-weight: 700;
+    margin: 0;
+    line-height: 66px;
+  }
+} */
 /* /header-top */
 
 /* header-main */
+.header-main{
+  color: #ffffff;
+  background-color: #1ABC9C;
+  height: 530px;
+  text-align: center;
+}
+
+.header-main-img{
+  width: 200px;
+  height: 200px;
+  background-color: #2C3E50;
+  margin: 100px auto 30px auto;
+  border-radius: 50%;
+}
+
+.title h1{
+  font-weight: 700;
+  font-size: 60px;
+}
+
+.header-main .description{
+  font-size: 24px;
+}
+/* /header-main */
