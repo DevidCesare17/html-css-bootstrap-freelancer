@@ -64,6 +64,7 @@
 .main_top h2{
   text-align: center;
   font-size: 40px;
+  font-weight: 700;
 }
 
 .bg_color{
@@ -103,8 +104,40 @@
   text-align: center;
   color: #ffffff;
 }
+
+.main_central h2{
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+}
 /* /main-central */
 
 /* main-bottom */
+.main_bottom{
+  height: 800px;
+}
 
+.main_bottom h2{
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+}
 /* /main-bottom */
+
+/* FOOTER */
+footer{
+  color: #ffffff;
+  text-align: center;
+}
+/* footer-top */
+.footer_top{
+  background-color: #3A546D;
+}
+/* /footer-top */
+
+/* footer-bottom */
+.footer_bottom{
+  background-color: #2C3E50;
+}
+/* /footer-bottom */
+/* /FOOTER */
