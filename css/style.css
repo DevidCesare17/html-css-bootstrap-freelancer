@@ -8,7 +8,8 @@ footer{
 }
 
 .container_short{
-  max-width: 800px;
+  width: 70%;
+  max-width: 850px;
   margin: auto;
 }
 
@@ -27,6 +28,10 @@ a:hover{
 }
 .pad_bott_80{
   padding-bottom: 80px;
+}
+
+.star_div{
+  padding: 30px 0;
 }
 
 .star_div span{
@@ -101,6 +106,7 @@ a:hover{
 .header_main h1{
   font-weight: 700;
   font-size: 60px;
+  padding: 0 15px;
 }
 
 .header_main .description{
@@ -112,9 +118,9 @@ a:hover{
 /* MAIN */
 /* main_top */
 #portfolio h2{
-  text-align: center;
-  font-size: 40px;
-  font-weight: 700;
+  color: #2C3E50;
+  font-size: 50px;
+  font-weight: 900;
 }
 
 .portfolio_img{
@@ -167,7 +173,6 @@ a:hover{
 }
 
 #about h2{
-  text-align: center;
   font-size: 50px;
   font-weight: 900;
 }
@@ -197,7 +202,6 @@ a:hover{
 
 /* main_bottom */
 #contact h2{
-  text-align: center;
   color: #2C3E50;
   font-size: 50px;
   font-weight: 900;
