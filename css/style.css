@@ -117,10 +117,17 @@ a:hover{
   padding-left: 20px;
 }
 
-.glyphicon-menu-hamburger{
+.header_top button{
   font-size: 20px;
   border-radius: 3px;
+  color: #ffffff;
+  background-color: #1ABC9C;
 }
+
+/* .glyphicon-menu-hamburger{
+  font-size: 20px;
+  border-radius: 3px;
+} */
 /* /header_top */
 
 /* header_main */
@@ -158,6 +165,7 @@ a:hover{
   width: 100%;
   height: auto;
   margin-bottom: 30px;
+  overflow: hidden;
 }
 
 .hover_plus{
@@ -168,7 +176,7 @@ a:hover{
   background-color: rgba(26, 186, 159, 0.8);
   height: 100%;
   width: 100%;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 .hover_plus span{
@@ -182,7 +190,7 @@ a:hover{
 
 .portfolio_img img{
   width: 100%;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 .portfolio_img:hover .hover_plus{
@@ -229,9 +237,10 @@ a:hover{
   font-family: 'Lato', sans-serif;
   border: none;
   border-radius: 0;
-  border-bottom: 2px solid #000000;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
   height: 80px;
   margin-bottom: 35px;
+  box-shadow: none;
 }
 
 #contact .input_message{
@@ -270,14 +279,17 @@ a:hover{
 
 .social{
   font-size: 18px;
+  width: 45px;
+  height: 45px;
 }
 
 .social_list{
-  width: 44px;
+  width: 45px;
+  height: 45px;
   border-radius: 50%;
   border: 1px solid #ffffff;
   text-align: center;
-  line-height: 40px;
+  line-height: 45px;
   margin: 0 10px;
 }
 
@@ -309,12 +321,17 @@ a:hover{
 
 /* ------MEDIA QUERY------ */
 @media screen and (max-width: 767px){
-  .header_main h1{
-    font-size: 36px;
-  }
-
   .header_top h2{
     font-size: 18px;
+  }
+
+  .header_top button{
+    font-size: 15px;
+    padding: 10px 1px;
+  }
+
+  .header_main h1{
+    font-size: 36px;
   }
 
   main h2{
