@@ -1,6 +1,12 @@
 /* general */
 body{
-  font-family: 'Lato', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+}
+
+main h2{
+  color: #2C3E50;
+  font-size: 40px;
+  font-weight: 900;
 }
 
 footer{
@@ -77,6 +83,7 @@ a:hover{
   border-radius: 2px;
   border-bottom: 5px solid #ffffff;
 }
+/* /general */
 
 /* HEADER */
 /* header_top */
@@ -92,15 +99,14 @@ a:hover{
 }
 
 .header_top h2{
-  font-size: 30px;
+  font-size: 26px;
   font-weight: 700;
   margin: 0;
   line-height: 120px;
 }
 
 .header_top .list-inline{
-  text-align: right;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 700;
   margin: 0;
 }
@@ -112,7 +118,6 @@ a:hover{
 .glyphicon-menu-hamburger{
   font-size: 20px;
   border-radius: 3px;
-  border: 1px solid #ffffff;
 }
 /* /header_top */
 
@@ -138,19 +143,14 @@ a:hover{
 }
 
 .header_main .description{
-  font-size: 24px;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
 }
 /* /header_main */
 /* /HEADER */
 
 /* MAIN */
 /* main_top */
-#portfolio h2{
-  color: #2C3E50;
-  font-size: 50px;
-  font-weight: 900;
-}
-
 .portfolio_img{
   position: relative;
   width: 100%;
@@ -162,8 +162,6 @@ a:hover{
 .hover_plus{
   position: absolute;
   display: none;
-  color: #ffffff;
-  font-size: 80px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -176,11 +174,10 @@ a:hover{
 .hover_plus span{
   position: absolute;
   color: #ffffff;
-  font-size: 80px;
+  font-size: 70px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  text-align: center;
 }
 
 .portfolio_img img{
@@ -196,16 +193,15 @@ a:hover{
 /* main_central */
 #about{
   background-color: #1ABC9C;
-  text-align: center;
   color: #ffffff;
 }
 
 #about h2{
-  font-size: 50px;
-  font-weight: 900;
+  color: #ffffff;
 }
 
 #about p{
+  font-family: 'Lato', sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 30px;
@@ -229,13 +225,8 @@ a:hover{
 /* /main_central */
 
 /* main_bottom */
-#contact h2{
-  color: #2C3E50;
-  font-size: 50px;
-  font-weight: 900;
-}
-
 #contact form input{
+  font-family: 'Lato', sans-serif;
   border: none;
   border-radius: 0;
   border-bottom: 2px solid #000000;
@@ -265,13 +256,12 @@ a:hover{
 .footer_top{
   background-color: #2C3E50;
   padding: 40px 0;
-
 }
 
 .footer_title{
   margin-bottom: 20px;
-  font-size: 24px;
-  font-weight: 900;
+  font-size: 22px;
+  font-weight: 700;
 }
 
 .footer_top p{
@@ -317,14 +307,43 @@ a:hover{
 /* /footer_bottom */
 /* /FOOTER */
 
+/* ------MEDIA QUERY------ */
 @media screen and (max-width: 767px){
   .header_main h1{
-    font-size: 40px;
+    font-size: 36px;
   }
-}
 
-@media screen and (max-width: 767px){
   .header_top h2{
     font-size: 18px;
   }
+
+  main h2{
+    font-size: 30px;
+  }
+
+  .star_div span{
+    font-size: 26px;
+  }
+  .star_div_white span{
+    font-size: 26px;
+  }
+
+  .star_div::after{
+    padding: 0 30px;
+  }
+  .star_div::before{
+    padding: 0 30px;
+  }
+  .star_div_white::after{
+    padding: 0 30px;
+  }
+  .star_div_white::before{
+    padding: 0 30px;
+  }
+
+  #about .download_btn{
+    font-size: 18px;
+    padding: 15px 20px;
+  }
 }
+/* ------/MEDIA QUERY------ */
