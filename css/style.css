@@ -46,11 +46,13 @@ a:hover{
 .star_div span{
   color: #2C3E50;
   font-size: 35px;
+  padding: 0 10px;
   vertical-align: middle;
 }
 .star_div_white span{
   color: #ffffff;
   font-size: 35px;
+  padding: 0 10px;
   vertical-align: middle;
 }
 
