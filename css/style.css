@@ -295,6 +295,7 @@ a:hover{
 
 .social_list:hover{
   background-color: #ffffff;
+  cursor: pointer;
 }
 
 .social_list:hover .social{
